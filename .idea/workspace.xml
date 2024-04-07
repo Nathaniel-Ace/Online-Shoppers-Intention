@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="" />
+    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/notebooks/exploration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualisation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_preprocess.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +21,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -29,7 +45,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Exercise Data and Code - KNN-20240320",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +79,7 @@
       <workItem from="1711701618466" duration="633000" />
       <workItem from="1711702326238" duration="996000" />
       <workItem from="1712253193948" duration="585000" />
+      <workItem from="1712500261563" duration="411000" />
     </task>
     <servers />
   </component>
