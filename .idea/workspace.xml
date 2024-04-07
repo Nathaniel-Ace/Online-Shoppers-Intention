@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/project_requirements.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/exploration.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visualisation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_preprocess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -50,7 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,7 +78,8 @@
       <workItem from="1711701618466" duration="633000" />
       <workItem from="1711702326238" duration="996000" />
       <workItem from="1712253193948" duration="585000" />
-      <workItem from="1712500261563" duration="756000" />
+      <workItem from="1712500261563" duration="884000" />
+      <workItem from="1712501182652" duration="311000" />
     </task>
     <servers />
   </component>
