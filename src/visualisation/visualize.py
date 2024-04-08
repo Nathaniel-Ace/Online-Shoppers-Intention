@@ -24,3 +24,6 @@ def plot_correlation_matrix(csv_file_path):
     sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
     plt.title('Correlation Matrix Heatmap')
     plt.show()
+
+
+plot_correlation_matrix('../../data/raw/online_shoppers_intention.csv')
