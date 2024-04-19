@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="edit">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_04_2024_17_24_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_04_2024_17_24__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_04_2024_17_25_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_04_2024_17_25__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/exploration.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/preprocess.py" afterDir="false" />
-    </list>
+    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="Data Exploration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +107,7 @@
       <workItem from="1712503579928" duration="233000" />
       <workItem from="1712566611401" duration="3139000" />
       <workItem from="1712904603294" duration="614000" />
-      <workItem from="1713511525672" duration="3327000" />
+      <workItem from="1713511525672" duration="3750000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -157,7 +149,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712569774408</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Data Cleaning and Scaling">
+      <option name="closed" value="true" />
+      <created>1713515461861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713515461861</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Data Exploration">
+      <option name="closed" value="true" />
+      <created>1713515479600</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713515479600</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +176,9 @@
     <MESSAGE value="Added files to src folder" />
     <MESSAGE value="Correlation Analyis with Heatmap" />
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+    <MESSAGE value="Data Cleaning and Scaling" />
+    <MESSAGE value="Data Exploration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Exploration" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1713514001883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
