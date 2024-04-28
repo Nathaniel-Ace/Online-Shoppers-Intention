@@ -1,0 +1,95 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"66040495-546f-4516-a9d7-8c8b5529c96b\" name=\"Changes\" comment=\"test commit Ace\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Jupyter Notebook\" />\r\n        <option value=\"Python Unit Test\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Nathaniel-Ace&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubProjectSettings\">\r\n    <option name=\"branchProtectionPatterns\">\r\n      <list>\r\n        <option value=\"main\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/Nathaniel-Ace/Online-Shoppers-Intention.git&quot;,\r\n    &quot;accountId&quot;: &quot;46242037-c3c5-4b72-ab6c-64c88293c46d&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2eM5TwPs400Nx8aDuDgmxpQihui\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.preprocess.executor\": \"Run\",\r\n    \"Python.visualize.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"develop\",\r\n    \"last_opened_file_path\": \"C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\natha\\OneDrive\\Desktop\\FHTW\\4. Semester\\Data Science und Machine Learning\\Online Shoppers Intention\\data\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241\" />\r\n        <option value=\"bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"66040495-546f-4516-a9d7-8c8b5529c96b\" name=\"Changes\" comment=\"\" />\r\n      <created>1711701617408</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1711701617408</updated>\r\n      <workItem from=\"1711701618466\" duration=\"633000\" />\r\n      <workItem from=\"1711702326238\" duration=\"996000\" />\r\n      <workItem from=\"1712253193948\" duration=\"585000\" />\r\n      <workItem from=\"1712500261563\" duration=\"884000\" />\r\n      <workItem from=\"1712501182652\" duration=\"649000\" />\r\n      <workItem from=\"1712503579928\" duration=\"233000\" />\r\n      <workItem from=\"1712566611401\" duration=\"3139000\" />\r\n      <workItem from=\"1712904603294\" duration=\"614000\" />\r\n      <workItem from=\"1713511525672\" duration=\"3827000\" />\r\n      <workItem from=\"1713982166591\" duration=\"60000\" />\r\n      <workItem from=\"1714135463055\" duration=\"375000\" />\r\n      <workItem from=\"1714304911460\" duration=\"65000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712501581812</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712501581812</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712501615441</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712501615441</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Added files to src folder\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712503718215</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712503718215</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Correlation Analyis with Heatmap\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712569323277</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712569323277</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"edit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1712569774408</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1712569774408</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Data Cleaning and Scaling\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713515461861</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713515461861</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Data Exploration\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713515479600</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713515479600</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"workspace\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1713515537882</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1713515537882</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"test commit Ace\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1714135511087</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1714135511087</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"test\" />\r\n    <MESSAGE value=\"Added files to src folder\" />\r\n    <MESSAGE value=\"Correlation Analyis with Heatmap\" />\r\n    <MESSAGE value=\"edit\" />\r\n    <MESSAGE value=\"Data Cleaning and Scaling\" />\r\n    <MESSAGE value=\"Data Exploration\" />\r\n    <MESSAGE value=\"workspace\" />\r\n    <MESSAGE value=\"test commit Ace\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"test commit Ace\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/Online_Shoppers_Intention$preprocess.coverage\" NAME=\"preprocess Coverage Results\" MODIFIED=\"1713514001883\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src/data\" />\r\n    <SUITE FILE_PATH=\"coverage/Online_Shoppers_Intention$visualize.coverage\" NAME=\"visualize Coverage Results\" MODIFIED=\"1712904890102\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/src/visualisation\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a52349d7c66fe9c4e6f082e777de7715b78b53e1)
++++ b/.idea/workspace.xml	(date 1714305478658)
+@@ -4,7 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="test commit Ace">
++    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="First Cleaning of data">
++      <change afterPath="$PROJECT_DIR$/data/processed/cleaned_online_shoppers_intention.csv" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -63,23 +64,23 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Python.preprocess.executor": "Run",
+-    "Python.visualize.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "develop",
+-    "last_opened_file_path": "C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Python.preprocess.executor&quot;: &quot;Run&quot;,
++    &quot;Python.visualize.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\natha\OneDrive\Desktop\FHTW\4. Semester\Data Science und Machine Learning\Online Shoppers Intention\data" />
+@@ -113,6 +114,7 @@
+       <workItem from="1713982166591" duration="60000" />
+       <workItem from="1714135463055" duration="375000" />
+       <workItem from="1714304911460" duration="65000" />
++      <workItem from="1714304985595" duration="487000" />
+     </task>
+     <task id="LOCAL-00001" summary="test">
+       <option name="closed" value="true" />
+@@ -186,7 +188,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1714135511087</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="First Cleaning of data">
++      <option name="closed" value="true" />
++      <created>1714305475620</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1714305475620</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -201,7 +211,8 @@
+     <MESSAGE value="Data Exploration" />
+     <MESSAGE value="workspace" />
+     <MESSAGE value="test commit Ace" />
+-    <option name="LAST_COMMIT_MESSAGE" value="test commit Ace" />
++    <MESSAGE value="First Cleaning of data" />
++    <option name="LAST_COMMIT_MESSAGE" value="First Cleaning of data" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1713514001883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
