@@ -33,5 +33,13 @@ X_train, X_test, y_train, y_test = train_test_split(df_cleaned.drop('Revenue', a
 print("Training data shape:", X_train.shape)
 print("Testing data shape:", X_test.shape)
 
+# Save the training data
+X_train.to_csv('../../data/processed/X_train.csv', index=False)
+y_train.to_csv('../../data/processed/y_train.csv', index=False)
+
+# Save the testing data
+# X_test.to_csv('../../data/processed/X_test.csv', index=False)
+# y_test.to_csv('../../data/processed/y_test.csv', index=False)
+
 # Save the cleaned and preprocessed dataset (optional)
 # df_cleaned.to_csv('../../data/processed/cleaned_online_shoppers_intention.csv', index=False)
