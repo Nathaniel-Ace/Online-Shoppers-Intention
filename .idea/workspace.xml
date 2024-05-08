@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="First Cleaning of data">
+    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="Training and Test splits">
       <change afterPath="$PROJECT_DIR$/src/models/ace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_04_2024_13_58_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_04_2024_13_58__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/cleaned_online_shoppers_intention.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/cleaned_online_shoppers_intention.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +68,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ace.executor": "Run",
     "Python.preprocess.executor": "Run",
     "Python.visualize.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -93,8 +92,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
       </set>
     </attachedChunks>
   </component>
@@ -120,7 +119,9 @@
       <workItem from="1714304911460" duration="65000" />
       <workItem from="1714304985595" duration="663000" />
       <workItem from="1714661981858" duration="339000" />
-      <workItem from="1714985770180" duration="959000" />
+      <workItem from="1714985770180" duration="1050000" />
+      <workItem from="1715157995732" duration="171000" />
+      <workItem from="1715158235278" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -210,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714305551860</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Training and Test splits">
+      <option name="closed" value="true" />
+      <created>1714986769184</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714986769184</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,10 +246,12 @@
     <MESSAGE value="workspace" />
     <MESSAGE value="test commit Ace" />
     <MESSAGE value="First Cleaning of data" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Cleaning of data" />
+    <MESSAGE value="Training and Test splits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Training and Test splits" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1714986256660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1715160600104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
     <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1714985967928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/visualisation" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$ace.coverage" NAME="ace Coverage Results" MODIFIED="1715160579955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
   </component>
 </project>
