@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="test" />
+    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +14,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -27,6 +28,25 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nathaniel-Ace&quot;
+  }
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nathaniel-Ace/Online-Shoppers-Intention.git&quot;,
+    &quot;accountId&quot;: &quot;46242037-c3c5-4b72-ab6c-64c88293c46d&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,6 +63,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.RFC_train.executor": "Run",
+    "Python.ace.executor": "Run",
+    "Python.ace2.executor": "Run",
+    "Python.ace_visualization.executor": "Run",
+    "Python.build_features.executor": "Run",
+    "Python.comparison.executor": "Run",
+    "Python.model_comparison.executor": "Run",
+    "Python.performance.executor": "Run",
+    "Python.preprocess.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.test_improved.executor": "Run",
+    "Python.visualize.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
@@ -64,7 +97,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -81,6 +115,34 @@
       <workItem from="1712253193948" duration="585000" />
       <workItem from="1712500261563" duration="884000" />
       <workItem from="1712501182652" duration="649000" />
+      <workItem from="1712503579928" duration="233000" />
+      <workItem from="1712566611401" duration="3139000" />
+      <workItem from="1712904603294" duration="614000" />
+      <workItem from="1713511525672" duration="3827000" />
+      <workItem from="1713982166591" duration="60000" />
+      <workItem from="1714135463055" duration="375000" />
+      <workItem from="1714304911460" duration="65000" />
+      <workItem from="1714304985595" duration="663000" />
+      <workItem from="1714661981858" duration="339000" />
+      <workItem from="1714985770180" duration="1050000" />
+      <workItem from="1715157995732" duration="171000" />
+      <workItem from="1715158235278" duration="4162000" />
+      <workItem from="1715196051432" duration="16000" />
+      <workItem from="1715602150959" duration="148000" />
+      <workItem from="1715604944842" duration="958000" />
+      <workItem from="1715706928145" duration="613000" />
+      <workItem from="1715851299787" duration="80000" />
+      <workItem from="1715950104710" duration="2451000" />
+      <workItem from="1716465720584" duration="41000" />
+      <workItem from="1717403575613" duration="8339000" />
+      <workItem from="1717494997029" duration="3675000" />
+      <workItem from="1717515488664" duration="1936000" />
+      <workItem from="1717571003180" duration="10467000" />
+      <workItem from="1717664011470" duration="13012000" />
+      <workItem from="1717745507223" duration="2529000" />
+      <workItem from="1717763453333" duration="567000" />
+      <workItem from="1718009452484" duration="3397000" />
+      <workItem from="1718714239585" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -98,14 +160,146 @@
       <option name="project" value="LOCAL" />
       <updated>1712501615441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added files to src folder">
+      <option name="closed" value="true" />
+      <created>1712503718215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712503718215</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correlation Analyis with Heatmap">
+      <option name="closed" value="true" />
+      <created>1712569323277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712569323277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edit">
+      <option name="closed" value="true" />
+      <created>1712569774408</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712569774408</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Data Cleaning and Scaling">
+      <option name="closed" value="true" />
+      <created>1713515461861</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713515461861</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Data Exploration">
+      <option name="closed" value="true" />
+      <created>1713515479600</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713515479600</updated>
+    </task>
+    <task id="LOCAL-00008" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1713515537882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713515537882</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test commit Ace">
+      <option name="closed" value="true" />
+      <created>1714135511087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714135511087</updated>
+    </task>
+    <task id="LOCAL-00010" summary="First Cleaning of data">
+      <option name="closed" value="true" />
+      <created>1714305475620</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714305475620</updated>
+    </task>
+    <task id="LOCAL-00011" summary="First Cleaning of data">
+      <option name="closed" value="true" />
+      <created>1714305551860</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714305551860</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Training and Test splits">
+      <option name="closed" value="true" />
+      <created>1714986769184</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714986769184</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Improved Cleaning of dataset">
+      <option name="closed" value="true" />
+      <created>1715160822045</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715160822045</updated>
+    </task>
+    <task id="LOCAL-00014" summary="push">
+      <option name="closed" value="true" />
+      <created>1718714683455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718714683456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Added files to src folder" />
+    <MESSAGE value="Correlation Analyis with Heatmap" />
+    <MESSAGE value="edit" />
+    <MESSAGE value="Data Cleaning and Scaling" />
+    <MESSAGE value="Data Exploration" />
+    <MESSAGE value="workspace" />
+    <MESSAGE value="test commit Ace" />
+    <MESSAGE value="First Cleaning of data" />
+    <MESSAGE value="Training and Test splits" />
+    <MESSAGE value="Improved Cleaning of dataset" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1717410789163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1718009460867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$test_improved.coverage" NAME="test_improved Coverage Results" MODIFIED="1718015959940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$comparison.coverage" NAME="comparison Coverage Results" MODIFIED="1717701462942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$build_features.coverage" NAME="build_features Coverage Results" MODIFIED="1717409936364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$model_comparison.coverage" NAME="model_comparison Coverage Results" MODIFIED="1717701616855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$ace2.coverage" NAME="ace2 Coverage Results" MODIFIED="1718014079850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$ace_visualization.coverage" NAME="ace_visualization Coverage Results" MODIFIED="1717745919999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/visualisation" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$ace.coverage" NAME="ace Coverage Results" MODIFIED="1717669523054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$test.coverage" NAME="test Coverage Results" MODIFIED="1717701690682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$performance.coverage" NAME="performance Coverage Results" MODIFIED="1717746304918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/visualisation" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1717765699757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/visualisation" />
   </component>
 </project>
