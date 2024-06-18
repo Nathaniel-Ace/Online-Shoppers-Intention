@@ -16,7 +16,7 @@ print("Shape of the dataset after removing duplicates:", df_cleaned.shape)
 
 # Encoding categorical variables
 encoder = OneHotEncoder(sparse_output=False)
-categorical_columns = ['VisitorType']  # Only encode 'VisitorType'
+categorical_columns = ['VisitorType', 'Month']  # Encode both 'VisitorType' and 'Month'
 df_encoded = pd.DataFrame(encoder.fit_transform(df_cleaned[categorical_columns]), columns=encoder.get_feature_names_out())
 df_encoded.index = df_cleaned.index  # Ensure indices are aligned by setting df_encoded index to match df_cleaned
 
@@ -24,7 +24,6 @@ df_encoded.index = df_cleaned.index  # Ensure indices are aligned by setting df_
 df_cleaned = df_cleaned.drop(categorical_columns, axis=1).join(df_encoded)  # Drop original and join encoded columns
 print("Shape of the dataset after encoding categorical variables:", df_cleaned.shape)
 print("Sample data after encoding (specific columns):\n", df_cleaned[['VisitorType_New_Visitor', 'VisitorType_Other', 'VisitorType_Returning_Visitor']].head())
-
 
 # Feature scaling
 scaler = StandardScaler()
@@ -38,12 +37,12 @@ print("Training data shape:", X_train.shape)
 print("Testing data shape:", X_test.shape)
 
 # Save the training data
-# X_train.to_csv('../../data/processed/X_train.csv', index=False)
-# y_train.to_csv('../../data/processed/y_train.csv', index=False)
+X_train.to_csv('../../data/processed/2X_train.csv', index=False)
+y_train.to_csv('../../data/processed/2y_train.csv', index=False)
 
 # Save the testing data
-# X_test.to_csv('../../data/processed/X_test.csv', index=False)
-# y_test.to_csv('../../data/processed/y_test.csv', index=False)
+X_test.to_csv('../../data/processed/2X_test.csv', index=False)
+y_test.to_csv('../../data/processed/2y_test.csv', index=False)
 
 # Save the cleaned and preprocessed dataset (optional)
-# df_cleaned.to_csv('../../data/processed/cleaned_online_shoppers_intention.csv', index=False)
+df_cleaned.to_csv('../../data/processed/2cleaned_online_shoppers_intention.csv', index=False)

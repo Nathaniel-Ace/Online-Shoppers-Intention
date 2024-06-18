@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="Training and Test splits">
+    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="Improved Cleaning of dataset">
+      <change afterPath="$PROJECT_DIR$/docs/First Data Preprocessing Script.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/models/ace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ace2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/comparison.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/test_improved.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualisation/ace_visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualisation/performance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/processed/cleaned_online_shoppers_intention.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/cleaned_online_shoppers_intention.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Model Training and Evaluation Script.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/build_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/build_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/visualisation/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/visualisation/visualize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_preprocess.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,24 +77,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.ace.executor": "Run",
-    "Python.preprocess.executor": "Run",
-    "Python.visualize.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.ace.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ace2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ace_visualization.executor&quot;: &quot;Run&quot;,
+    &quot;Python.build_features.executor&quot;: &quot;Run&quot;,
+    &quot;Python.comparison.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_comparison.executor&quot;: &quot;Run&quot;,
+    &quot;Python.performance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.preprocess.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_improved.executor&quot;: &quot;Run&quot;,
+    &quot;Python.visualize.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\natha\OneDrive\Desktop\FHTW\4. Semester\Data Science und Machine Learning\Online Shoppers Intention\data" />
@@ -92,8 +112,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
-        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -121,7 +141,22 @@
       <workItem from="1714661981858" duration="339000" />
       <workItem from="1714985770180" duration="1050000" />
       <workItem from="1715157995732" duration="171000" />
-      <workItem from="1715158235278" duration="2348000" />
+      <workItem from="1715158235278" duration="4162000" />
+      <workItem from="1715196051432" duration="16000" />
+      <workItem from="1715602150959" duration="148000" />
+      <workItem from="1715604944842" duration="958000" />
+      <workItem from="1715706928145" duration="613000" />
+      <workItem from="1715851299787" duration="80000" />
+      <workItem from="1715950104710" duration="2451000" />
+      <workItem from="1716465720584" duration="41000" />
+      <workItem from="1717403575613" duration="8339000" />
+      <workItem from="1717494997029" duration="3675000" />
+      <workItem from="1717515488664" duration="1936000" />
+      <workItem from="1717571003180" duration="10467000" />
+      <workItem from="1717664011470" duration="13012000" />
+      <workItem from="1717745507223" duration="2529000" />
+      <workItem from="1717763453333" duration="567000" />
+      <workItem from="1718009452484" duration="3397000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -219,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714986769184</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Improved Cleaning of dataset">
+      <option name="closed" value="true" />
+      <created>1715160822045</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715160822045</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,11 +290,21 @@
     <MESSAGE value="test commit Ace" />
     <MESSAGE value="First Cleaning of data" />
     <MESSAGE value="Training and Test splits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Training and Test splits" />
+    <MESSAGE value="Improved Cleaning of dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved Cleaning of dataset" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1715160600104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
-    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1714985967928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/visualisation" />
-    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$ace.coverage" NAME="ace Coverage Results" MODIFIED="1715160579955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1717410789163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1718009460867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$test_improved.coverage" NAME="test_improved Coverage Results" MODIFIED="1718015959940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$comparison.coverage" NAME="comparison Coverage Results" MODIFIED="1717701462942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$build_features.coverage" NAME="build_features Coverage Results" MODIFIED="1717409936364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/features" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$model_comparison.coverage" NAME="model_comparison Coverage Results" MODIFIED="1717701616855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$ace2.coverage" NAME="ace2 Coverage Results" MODIFIED="1718014079850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$ace_visualization.coverage" NAME="ace_visualization Coverage Results" MODIFIED="1717745919999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/visualisation" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$ace.coverage" NAME="ace Coverage Results" MODIFIED="1717669523054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$test.coverage" NAME="test Coverage Results" MODIFIED="1717701690682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$performance.coverage" NAME="performance Coverage Results" MODIFIED="1717746304918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/visualisation" />
+    <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1717765699757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/visualisation" />
   </component>
 </project>
