@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="Improved Cleaning of dataset">
-      <change afterPath="$PROJECT_DIR$/docs/First Data Preprocessing Script.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ace2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/comparison.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/test_improved.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visualisation/ace_visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visualisation/performance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Model Training and Evaluation Script.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/build_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/build_features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/visualisation/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/visualisation/visualize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_preprocess.py" beforeDir="false" />
-    </list>
+    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,33 +61,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.ace.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ace2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ace_visualization.executor&quot;: &quot;Run&quot;,
-    &quot;Python.build_features.executor&quot;: &quot;Run&quot;,
-    &quot;Python.comparison.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_comparison.executor&quot;: &quot;Run&quot;,
-    &quot;Python.performance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.preprocess.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_improved.executor&quot;: &quot;Run&quot;,
-    &quot;Python.visualize.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.RFC_train.executor": "Run",
+    "Python.ace.executor": "Run",
+    "Python.ace2.executor": "Run",
+    "Python.ace_visualization.executor": "Run",
+    "Python.build_features.executor": "Run",
+    "Python.comparison.executor": "Run",
+    "Python.model_comparison.executor": "Run",
+    "Python.performance.executor": "Run",
+    "Python.preprocess.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test2.executor": "Run",
+    "Python.test_improved.executor": "Run",
+    "Python.visualize.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "last_opened_file_path": "C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\natha\OneDrive\Desktop\FHTW\4. Semester\Data Science und Machine Learning\Online Shoppers Intention\data" />
@@ -157,6 +142,7 @@
       <workItem from="1717745507223" duration="2529000" />
       <workItem from="1717763453333" duration="567000" />
       <workItem from="1718009452484" duration="3397000" />
+      <workItem from="1718714239585" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -262,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715160822045</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="push">
+      <option name="closed" value="true" />
+      <created>1718714683455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718714683456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +285,8 @@
     <MESSAGE value="First Cleaning of data" />
     <MESSAGE value="Training and Test splits" />
     <MESSAGE value="Improved Cleaning of dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved Cleaning of dataset" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Online_Shoppers_Intention$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1717410789163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
