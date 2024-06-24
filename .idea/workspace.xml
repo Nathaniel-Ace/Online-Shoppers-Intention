@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="push 2" />
+    <list default="true" id="66040495-546f-4516-a9d7-8c8b5529c96b" name="Changes" comment="push 2">
+      <change beforePath="$PROJECT_DIR$/Online Shoppers Intention Documentation.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +80,7 @@
     "Python.visualize.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/natha/OneDrive/Desktop/FHTW/4. Semester/Data Science und Machine Learning/Online Shoppers Intention",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
